@@ -1,0 +1,29 @@
+name: Feature Request
+description: Suggest an improvement for Vibe Island for Linux
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What workflow problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would you like Vibe Island to do?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Distro, desktop, session type, terminal, and agent setup.

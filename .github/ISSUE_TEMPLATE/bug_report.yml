@@ -1,0 +1,43 @@
+name: Bug Report
+description: Report a reproducible problem in Vibe Island for Linux
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: List exact steps so the problem can be reproduced.
+      placeholder: |
+        1. Start Vibe Island with ...
+        2. Open Claude/Codex ...
+        3. Trigger approval ...
+        4. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Distro, desktop, session type, terminal, Claude/Codex versions.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / screenshots
+      description: Paste shell output or attach screenshots if possible.

@@ -1,0 +1,200 @@
+{
+  "generated_at": "2026-04-03T12:00:00Z",
+  "active_count": 3,
+  "blocked_count": 1,
+  "timeline": [
+    {
+      "event_id": "evt-claude-approval",
+      "session_id": "claude-auth-fix",
+      "ts": "2026-04-03T11:59:45Z",
+      "source": "claude",
+      "title": "Fix auth middleware",
+      "kind": "needs_approval",
+      "state": "blocked",
+      "summary": "Needs approval for editing src/auth/middleware.ts",
+      "workspace": "/home/gaodi11/文件/vibeisland_for_linux",
+      "cwd": "/home/gaodi11/文件/vibeisland_for_linux",
+      "attention_score": 100
+    },
+    {
+      "event_id": "evt-codex-update",
+      "session_id": "codex-landing-refactor",
+      "ts": "2026-04-03T11:59:52Z",
+      "source": "codex",
+      "title": "Refactor landing page",
+      "kind": "session_updated",
+      "state": "running",
+      "summary": "Drafting component structure and CSS variables",
+      "workspace": "/home/gaodi11/文件/vibeisland_for_linux",
+      "cwd": "/home/gaodi11/文件/vibeisland_for_linux",
+      "attention_score": 20
+    },
+    {
+      "event_id": "evt-codex-done",
+      "session_id": "codex-tests",
+      "ts": "2026-04-03T11:58:30Z",
+      "source": "codex",
+      "title": "Run test sweep",
+      "kind": "completed",
+      "state": "completed",
+      "summary": "All tests passed. Ready to jump back.",
+      "workspace": "/home/gaodi11/文件/vibeisland_for_linux",
+      "cwd": "/home/gaodi11/文件/vibeisland_for_linux",
+      "attention_score": 55
+    }
+  ],
+  "quiet_mode": {
+    "enabled": false,
+    "enabled_at": null,
+    "suppress_below_attention": 80,
+    "reason": null
+  },
+  "sessions": [
+    {
+      "id": "claude-auth-fix",
+      "title": "Fix auth middleware",
+      "display_title": "Fix auth middleware",
+      "context_label": "Claude · vibeisland_for_linux · konsole",
+      "workspace_label": "vibeisland_for_linux",
+      "terminal_label": "konsole",
+      "source": "claude",
+      "state": "blocked",
+      "summary": "Needs approval for editing src/auth/middleware.ts",
+      "attention_score": 100,
+      "updated_at": "2026-04-03T11:59:45Z",
+      "created_at": "2026-04-03T11:40:00Z",
+      "last_event_kind": "needs_approval",
+      "task_label": "Fix auth middleware",
+      "progress": {
+        "phase": "editing",
+        "pct": 0.72
+      },
+      "interaction": {
+        "approval_type": "file_edit",
+        "question": null,
+        "choices": []
+      },
+      "review": {
+        "headline": "Workspace write review",
+        "command": "Edit src/auth/middleware.ts",
+        "reason": "Editing src/auth/middleware.ts requires approval",
+        "risk": "workspace writes",
+        "scope": "src/auth/middleware.ts",
+        "workspace_hint": "vibeisland_for_linux",
+        "tool_name": "Edit"
+      },
+      "stuck": {
+        "is_stuck": true,
+        "score": 95,
+        "reason": "waiting too long for approval",
+        "stalled_for_seconds": 1140,
+        "last_progress_at": "2026-04-03T11:40:45Z",
+        "signal": "approval_wait"
+      },
+      "jump_target": {
+        "terminal": "tmux",
+        "tty": "/dev/pts/8",
+        "pid": 4321,
+        "tmux_session": "work",
+        "tmux_window": "3",
+        "tmux_pane": "%9"
+      }
+    },
+    {
+      "id": "codex-landing-refactor",
+      "title": "Refactor landing page",
+      "display_title": "Refactor landing page",
+      "context_label": "Codex · vibeisland_for_linux · kitty",
+      "workspace_label": "vibeisland_for_linux",
+      "terminal_label": "kitty",
+      "source": "codex",
+      "state": "running",
+      "summary": "Drafting component structure and CSS variables",
+      "attention_score": 22,
+      "updated_at": "2026-04-03T11:59:52Z",
+      "created_at": "2026-04-03T11:12:00Z",
+      "last_event_kind": "session_updated",
+      "task_label": "Refactor landing page",
+      "progress": {
+        "phase": "planning",
+        "pct": 0.33
+      },
+      "interaction": {
+        "approval_type": null,
+        "question": null,
+        "choices": []
+      },
+      "review": {
+        "headline": "Command execution review",
+        "command": "Drafting component structure and CSS variables",
+        "reason": "Drafting component structure and CSS variables",
+        "risk": "command execution",
+        "scope": "vibeisland_for_linux"
+      },
+      "stuck": {
+        "is_stuck": false,
+        "score": 0,
+        "reason": null,
+        "stalled_for_seconds": 120,
+        "last_progress_at": "2026-04-03T11:57:52Z",
+        "signal": null
+      },
+      "jump_target": {
+        "terminal": "kitty",
+        "tty": "/dev/pts/6",
+        "pid": 5678,
+        "tmux_session": null,
+        "tmux_window": null,
+        "tmux_pane": null
+      }
+    },
+    {
+      "id": "codex-tests",
+      "title": "Run test sweep",
+      "display_title": "Run test sweep",
+      "context_label": "Codex · vibeisland_for_linux · wezterm",
+      "workspace_label": "vibeisland_for_linux",
+      "terminal_label": "wezterm",
+      "source": "codex",
+      "state": "completed",
+      "summary": "All tests passed. Ready to jump back.",
+      "attention_score": 55,
+      "updated_at": "2026-04-03T11:58:30Z",
+      "created_at": "2026-04-03T11:20:00Z",
+      "last_event_kind": "completed",
+      "task_label": "Run test sweep",
+      "progress": {
+        "phase": "done",
+        "pct": 1.0
+      },
+      "interaction": {
+        "approval_type": null,
+        "question": null,
+        "choices": []
+      },
+      "review": {
+        "headline": "Read-only review",
+        "command": "All tests passed. Ready to jump back.",
+        "reason": "All tests passed. Ready to jump back.",
+        "risk": "read only",
+        "scope": "vibeisland_for_linux"
+      },
+      "stuck": {
+        "is_stuck": false,
+        "score": 0,
+        "reason": null,
+        "stalled_for_seconds": 210,
+        "last_progress_at": "2026-04-03T11:55:00Z",
+        "signal": null
+      },
+      "jump_target": {
+        "terminal": "wezterm",
+        "tty": "/dev/pts/10",
+        "pid": 8765,
+        "tmux_session": null,
+        "tmux_window": null,
+        "tmux_pane": null
+      }
+    }
+  ]
+}

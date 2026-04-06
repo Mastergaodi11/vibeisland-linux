@@ -1,0 +1,8 @@
+target/
+__pycache__/
+*.pyc
+*.pyo
+.vibeisland/
+.tmp-collab-smoke/
+.tmp-pretool.json
+Untitled-1.txt

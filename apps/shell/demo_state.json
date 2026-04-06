@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-04-03T16:00:00Z",
+  "sessions": [
+    {
+      "id": "claude-01",
+      "agent": "Claude Code",
+      "title": "Refactor auth middleware",
+      "status": "needs approval",
+      "summary": "Waiting for shell permission to touch package files.",
+      "cwd": "/home/gaodi11/projects/cyberpunk-dj-station",
+      "elapsed": "04:12",
+      "priority": "high"
+    },
+    {
+      "id": "codex-02",
+      "agent": "Codex",
+      "title": "Build the session bridge",
+      "status": "running",
+      "summary": "Writing schema, adapters, and the local event bus.",
+      "cwd": "/home/gaodi11/文件/vibeisland_for_linux",
+      "elapsed": "01:47",
+      "priority": "medium"
+    },
+    {
+      "id": "claude-03",
+      "agent": "Claude Code",
+      "title": "Draft UI motion polish",
+      "status": "completed",
+      "summary": "Finished the first pass for island animation timing.",
+      "cwd": "/home/gaodi11/文件/vibeisland_for_linux",
+      "elapsed": "09:03",
+      "priority": "low"
+    }
+  ]
+}
+
